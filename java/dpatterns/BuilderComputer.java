@@ -61,6 +61,7 @@ public class BuilderComputer {
 		
 		//this is the final master stroke to finish the puzzle
 		//call the constructor of main class passing Builder obj
+		//for sure we can call constructor from static context, main method is always static, right.
 		public BuilderComputer build() {
 			return new BuilderComputer(this);
 		}
